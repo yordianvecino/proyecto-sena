@@ -1,11 +1,7 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import React, {Fragment} from 'react';
+import {BrowserRouter as Router, Route, Link, Routes} from 'react-router-dom';
 import Inicio from './Componentes/Inicio';
+import Boletin from './Componentes/boletin';
 
 function App() {
   return (
@@ -13,26 +9,14 @@ function App() {
       <div className="container">
         <h1>COLEGÍO JOSÉ MANUEL-RESTREPO - ANTIOQUIA - ARBOLETES</h1>
         <hr />
-        <Switch>
-          <Route path='/' exact>
-            <Inicio/>
-          </Route>
-          <Route path='/boletin' exact>
-            BOLETIN INFORMATIVO Y EDUCATIVO
-          </Route>
-          <Route path='/certificados' exact>
-            CERTIFICADO ESCOLAR
-          </Route>
-          <Route path='/certificados/notas' exact>
-            CERTIFICADO DE NOTAS
-          </Route>
-          <Route path='/constancias' exact>
-            CONSTANCIAS
-          </Route>
-          <Route path='/preguntas' exact>
-            PREGUNTAS FRECUENTES
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path='/' element={<Inicio />} exact></Route>
+          <Route path='/boletin' element={<Boletin />}></Route>
+          <Route path='/certificados' element={<Inicio />}></Route>
+          <Route path='/certificados/notas' element={<Inicio />}></Route>
+          <Route path='/constancias' element={<Inicio />}></Route>
+          <Route path='/preguntas' element={<Inicio />}></Route>
+        </Routes>
       </div>
     </Router>
   );
