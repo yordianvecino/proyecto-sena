@@ -12,15 +12,19 @@ function App() {
   return (
     <Router>
       <nav class="navbar bg-light">
-          <div class="container-fluid">
+        <div class="container-fluid">
           <img src={imagen} alt="" width="100" height="100" class="d-inline-block align-text-top"></img>
           <div class="position-absolute top-50 start-50 translate-middle">
             <a class="navbar-brand" href="#">
               COLEGÍO JOSÉ MANUEL-RESTREPO - ANTIOQUIA - ARBOLETES
             </a>
-            </div>
           </div>
-        </nav>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"></input>
+            <button class="btn btn-outline-warning" type="submit">🔍</button>
+          </form>
+        </div>
+      </nav>
       <div className="container">
         <br></br>
         <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
