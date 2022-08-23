@@ -6,12 +6,23 @@ import Certificados from './Componentes/certificado';
 import CertificadosNotas from './Componentes/cerificadoNotas';
 import Constancia from './Componentes/Constancia';
 import Preguntas from './Componentes/preguntas';
+import imagen from './Componentes/img/ESCUDO.png'
 
 function App() {
   return (
     <Router>
       <div className="container">
-        <h1>COLEGÍO JOSÉ MANUEL-RESTREPO - ANTIOQUIA - ARBOLETES</h1>
+        <nav class="navbar bg-light">
+          <div class="container-fluid">
+          <img src={imagen} alt="" width="100" height="100" class="d-inline-block align-text-top"></img>
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <a class="navbar-brand" href="#">
+              COLEGÍO JOSÉ MANUEL-RESTREPO - ANTIOQUIA - ARBOLETES
+            </a>
+            </div>
+            
+          </div>
+        </nav>
         <hr />
         <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group" role="group" aria-label="First group">

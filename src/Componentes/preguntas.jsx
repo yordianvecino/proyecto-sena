@@ -1,13 +1,19 @@
 import React from 'react'
 
 const preguntas = () => {
-  return (
-    <div>
-        <h1>
-            Preguntas
-        </h1>
-    </div>
-  )
+    return (
+        <div>
+            <div class="mb-3">
+                <br />
+                <label for="exampleFormControlTextarea1" class="form-label">¿ Cual es tu pregunta ?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Escribe tu pregunta'></textarea>
+                <br />
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary" type="button">Button</button>
+                </div>
+            </div>
+        </div>
+    )
 }
 
 export default preguntas
