@@ -37,6 +37,7 @@ function App() {
             <Link to="/preguntas" class="btn btn-dark">PREGUNTAS FRECUENTES</Link>
           </div>
         </div>
+        <br></br>
         <Routes>
           <Route path='/' element={<Inicio />} exact></Route>
           <Route path='/boletin' element={<Boletin />}></Route>
