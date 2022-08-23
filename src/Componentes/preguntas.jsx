@@ -9,7 +9,7 @@ const preguntas = () => {
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Escribe tu pregunta'></textarea>
                 <br />
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-primary" type="button">Button</button>
+                    <button class="btn btn-dark" type="button">Envier</button>
                 </div>
             </div>
         </div>

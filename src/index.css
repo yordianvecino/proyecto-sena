@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body {
+  background: #fa6400;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fffc49fb, #fa6400);  
+  background: linear-gradient(to right, #fffc49fb, #fa6400); 
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

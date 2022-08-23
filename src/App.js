@@ -11,8 +11,7 @@ import imagen from './Componentes/img/ESCUDO.png'
 function App() {
   return (
     <Router>
-      <div className="container">
-        <nav class="navbar bg-light">
+      <nav class="navbar bg-light">
           <div class="container-fluid">
           <img src={imagen} alt="" width="100" height="100" class="d-inline-block align-text-top"></img>
           <div class="position-absolute top-50 start-50 translate-middle">
@@ -20,10 +19,10 @@ function App() {
               COLEGÍO JOSÉ MANUEL-RESTREPO - ANTIOQUIA - ARBOLETES
             </a>
             </div>
-            
           </div>
         </nav>
-        <hr />
+      <div className="container">
+        <br></br>
         <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group" role="group" aria-label="First group">
             <Link to="/" class="btn btn-dark">INICIO</Link>
