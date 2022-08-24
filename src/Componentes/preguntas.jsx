@@ -4,7 +4,6 @@ const preguntas = () => {
     return (
         <div>
             <div class="mb-3">
-                <br />
                 <label for="exampleFormControlTextarea1" class="form-label">¿ Cual es tu pregunta ?</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder='Escribe tu pregunta'></textarea>
                 <br />
