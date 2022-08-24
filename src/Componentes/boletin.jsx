@@ -1,8 +1,5 @@
 import React from 'react'
-import imagen from './img/news.gif'
-import imagen1 from './img/actividades.gif'
-import imagen2 from './img/eventos.gif'
-import imagen3 from './img/proyectos.gif'
+ 
 
 const boletin = () => {
     return (

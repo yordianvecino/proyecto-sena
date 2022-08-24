@@ -29,12 +29,12 @@ function App() {
         <br></br>
         <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
           <div class="btn-group" role="group" aria-label="First group">
-            <Link to="/" class="btn btn-dark">INICIO</Link>
-            <Link to="/boletin" class="btn btn-dark">BOLETIN INFORMATIVO Y EDUCATIVO</Link>
-            <Link to="/certificados" class="btn btn-dark">CERTIFICADO ESCOLAR</Link>
-            <Link to="/certificados/notas" class="btn btn-dark">CERTIFICADO DE NOTAS</Link>
-            <Link to="/constancias" class="btn btn-dark"> CONSTANCIAS</Link>
-            <Link to="/preguntas" class="btn btn-dark">PREGUNTAS FRECUENTES</Link>
+            <Link to="/" class="btn btn-white">INICIO</Link>
+            <Link to="/boletin" class="btn btn-white">BOLETIN INFORMATIVO Y EDUCATIVO</Link>
+            <Link to="/certificados" class="btn btn-white">CERTIFICADO ESCOLAR</Link>
+            <Link to="/certificados/notas" class="btn btn-white">CERTIFICADO DE NOTAS</Link>
+            <Link to="/constancias" class="btn btn-white"> CONSTANCIAS</Link>
+            <Link to="/preguntas" class="btn btn-white">PREGUNTAS FRECUENTES</Link>
           </div>
         </div>
         <br></br>
